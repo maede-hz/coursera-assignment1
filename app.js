@@ -1,11 +1,11 @@
 (function () {
 'use strict';
 
-angular.module('LunchApp', [])
-.controller('LunchController', LunchController);
+angular.module('LunchCheck', [])
+.controller('LunchCheckController', LunchCheckController);
 
-LunchController.$inject = ['$scope'];
-function LunchController($scope) {
+LunchCheckController.$inject = ['$scope'];
+function LunchCheckController($scope) {
    $scope.dishes="";
    $scope.message ="";
 
